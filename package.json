@@ -1,0 +1,26 @@
+{
+  "name": "macropaytest",
+  "version": "1.0.0",
+  "description": "Test macropay Johann Duran",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohannDuran/macropayTest.git"
+  },
+  "author": "Johann Alberto Duran Larios",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohannDuran/macropayTest/issues"
+  },
+  "homepage": "https://github.com/JohannDuran/macropayTest#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.0.1"
+  }
+}
